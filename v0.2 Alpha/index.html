@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PhotoSoft</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>PhotoSoft</h1>
+
+<div class="top-actions">
+
+<input type="file" id="openImage">
+
+<button id="saveBtn">💾 Save</button>
+
+</div>
+
+</header>
+
+<div class="workspace">
+
+<div class="toolbar">
+
+<button data-tool="brush" class="active">🖌️</button>
+
+<button data-tool="eraser">🩹</button>
+
+</div>
+
+<div class="canvas-area">
+
+<canvas
+id="canvas"
+width="1200"
+height="700">
+</canvas>
+
+</div>
+
+<div class="properties">
+
+<h3>Properties</h3>
+
+<label>Color</label>
+
+<input
+type="color"
+id="colorPicker"
+value="#000000">
+
+<label>Brush Size</label>
+
+<input
+type="range"
+id="brushSize"
+min="1"
+max="100"
+value="10">
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
