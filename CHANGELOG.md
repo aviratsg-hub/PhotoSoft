@@ -28,7 +28,7 @@ Release Date: June 2026
 - Tool activation bugs
 
 ### Notes
-This is the first stable PhotoSoft prerelease.
+This is the first stable PhotoSoft Alpha release.
 The primary goal of v0.2 was to establish a working foundation for future editing features.
 
 ---
